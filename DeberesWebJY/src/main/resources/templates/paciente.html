@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+ <title>Pacientes</title>
+</head>
+
+<body>
+
+
+</body>
+<table>
+	<tr>
+		<td th:text="'Id:'"></td>
+		<td th:text="${paci.id}"></td>
+	</tr>
+	<tr>
+		<td th:text="'Cedula:'"></td>
+		<td th:text="${paci.cedula}"></td>
+	</tr>
+	<tr>
+		<td th:text="'Nombre:'"></td>
+		<td th:text="${paci.nombre}"></td>
+	</tr>
+	<tr>
+		<td th:text="'Apellido:'"></td>
+		<td th:text="${paci.apellido}"></td>
+	</tr>
+	<tr>
+		<td th:text="'Genero:'"></td>
+		<td th:text="${paci.genero}"></td>
+	</tr>
+	<tr>
+		<td th:text="'Num IESS:'"></td>
+		<td th:text="${paci.numeroIESS}"></td>
+	</tr>
+
+
+
+
+</table>
+
+</html>
